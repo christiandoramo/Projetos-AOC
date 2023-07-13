@@ -8,8 +8,9 @@
 
 :o: [Contribuidores](#contribuidores)
 
-
 :o: [Requisitos de Projeto](#requisitos-de-projeto)
+
+:o: [Dicas de acesso](#dicas-de-acesso-arrow_forward)
 
 </div>
 
@@ -188,13 +189,16 @@ registrar a formatação no arquivo externo
 
 ## Dicas de Acesso :arrow_forward:
 
-<div  align="left">
+<div  align="center">
 
 [Site do Mars e os recursos necessários para usá-lo](http://courses.missouristate.edu/kenvollmar/mars/)
 
+</div>
 
 ### Tópicos
 
+<div  align="left">
+    
 :o: [Contribuidores](#contribuidores)
 
 :o: [Requisitos de Projeto](#requisitos-de-projeto)
