@@ -8,7 +8,7 @@
 
 :o: [Contribuidores](#contribuidores)
 
-:o: [Requisitos de Projeto](#requisitos-de-projeto)
+:o: [Requisitos de Projeto 1](#requisitos-de-projeto-1)
 
 :o: [Dicas de acesso](#dicas-de-acesso-arrow_forward)
 
@@ -21,7 +21,7 @@
 | [Christian Oliveira](https://github.com/christiandoramo)                                                             |                               [João Lucas](https://github.com/https://github.com/lukajlp)                                   |
 
 
-## Requisitos de Projeto
+## Requisitos de Projeto 1
 
 <div  align="left">
 
@@ -201,7 +201,7 @@ registrar a formatação no arquivo externo
     
 :o: [Contribuidores](#contribuidores)
 
-:o: [Requisitos de Projeto](#requisitos-de-projeto)
+:o: [Requisitos de Projeto](#requisitos-de-projeto-1)
 
 :o: [Dicas de acesso](#dicas-de-acesso-arrow_forward)
 
