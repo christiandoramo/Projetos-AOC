@@ -8,7 +8,6 @@
 
 :o: [Contribuidores](#contribuidores)
 
-:o: [Descrição geral](#descrição-geral-pencil)
 
 :o: [Requisitos de Projeto](#requisitos-de-projeto)
 
@@ -197,8 +196,6 @@ registrar a formatação no arquivo externo
 ### Tópicos
 
 :o: [Contribuidores](#contribuidores)
-
-:o: [Descrição geral](#descrição-geral-pencil)
 
 :o: [Requisitos de Projeto](#requisitos-de-projeto)
 
