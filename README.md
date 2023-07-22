@@ -16,9 +16,9 @@
 
 ## Contribuidores
 
-| [<img src="https://avatars.githubusercontent.com/u/116025325?v=4" width=115>](https://github.com/christiandoramo)    | [<img src="https://avatars.githubusercontent.com/u/65697819?v=4" width=115>](https://github.com/https://github.com/lukajlp) |
-| ---------------------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------------------------------- |
-| [Christian Oliveira](https://github.com/christiandoramo)                                                             |                               [João Lucas](https://github.com/https://github.com/lukajlp)                                   |
+| [<img src="https://avatars.githubusercontent.com/u/116025325?v=4" width=115>](https://github.com/christiandoramo)    | [<img src="https://avatars.githubusercontent.com/u/65697819?v=4" width=115>](https://github.com/https://github.com/lukajlp) | [<img src="https://avatars.githubusercontent.com/u/69995288?v=4" width=115>](https://github.com/Viinario) |
+| ---------------------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------|
+| [Christian Oliveira](https://github.com/christiandoramo)                                                             |                               [João Lucas](https://github.com/https://github.com/lukajlp)                                   | [Vinicius Nário](https://github.com/Viinario)                                                             |
 
 
 ## Requisitos de Projeto 1
