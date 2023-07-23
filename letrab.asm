@@ -1,7 +1,5 @@
 # params -> destination: a0, source: a1, num: a2.
 # retorna destination em v0.
-
-
 .data
 	c: .asciiz "casinha"
 	b: .asciiz "carrinho"
@@ -10,7 +8,12 @@
 	la $a0, b # destino
 	la $a1, c #source
 	li $a2, 7 #max de bytes
-
+	
+	jal memcpy
+	
+	li $v0, 10 # fim
+	syscall
+	
 memcpy:
     addi    $v0,        $a0,        0           # v0 vai retorna destination a0
 memcpyLoop:
@@ -25,4 +28,4 @@ memcpyLoop:
     beq     $a2,        $0,         retorne
     j       memcpyLoop
 retorne:
-    #jr      $ra
+    jr      $ra
