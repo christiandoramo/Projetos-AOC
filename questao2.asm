@@ -1,8 +1,9 @@
 	.text
-main:		
-	jal	getc
-	ori	$a0, $v0, 0
-	jal	putc
+eco:		
+	jal	getc			# get c
+	ori	$a0, $v0, 0	 #a0 = v0 (param a0 =retorno de get c) 
+	jal	putc                    #put c
+	bne $v0, 10, eco  # Repete se valor lido for diferente de 10 ( "Enter")
 exit:
 	li      $v0, 10		
 	syscall			
@@ -10,20 +11,20 @@ exit:
 getc:		
 #	v0 = received byte		
 	lui     $t0,0xffff		
-gcloop:
+getcloop:
 	lw	$t1,0($t0)	        # read rcv ctrl
 	andi	$t1,$t1,0x0001		# extract ready bit
-	beq	$t1,$0,gcloop		# keep polling till ready
+	beq	$t1,$0,getcloop		# keep polling till ready
 	lw	$v0,4($t0)		# read data and rtn
 	jr	$ra		
 	
 putc:		
 #	a0 = byte to trransmit
 	lui     $t0,0xffff			
-pcloop:
+putcloop:
 	lw	$t1,8($t0)		# read tx ctrl
 	andi	$t1,$t1,0x0001  	# extract ready bit 
-	beq	$t1,$0,pcloop		# wait till ready
+	beq	$t1,$0,putcloop		# wait till ready
 	sw	$a0, 0xc($t0)		# write data
 	jr	$ra		
 	
