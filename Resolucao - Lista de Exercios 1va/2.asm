@@ -3,7 +3,9 @@ eco:
 	jal	getc			# get c
 	ori	$a0, $v0, 0	 #a0 = v0 (param a0 =retorno de get c) 
 	jal	putc                    #put c
-	bne $v0, 10, eco  # Repete se valor lido for diferente de 10 ( "Enter")
+	li $t0, 10
+	beq $v0, $10, exit  # Repete se valor lido for diferente de 10 ( "Enter")
+	j eco
 exit:
 	li      $v0, 10		
 	syscall			
