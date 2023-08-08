@@ -1,10 +1,18 @@
+# grupo: 
+# ALEXANDRE VITOR ROCHA DE SOUZA , CHRISTIAN OLIVEIRA DO RAMO, JOAO LUCAS PINTO DE SANTANA, VINICIUS NARIO VASCONCELOS
+# data: 08/08/2023
+# atividade: projeto
+# disciplina: Arquitetura e Organização de Computadores
+# semestre letivo: 2022.2
+# descrição: função que compara um determinado numero de bytes
+
 #Imprime o resultado de comparar duas strings:
 	# 0 -> as strings são iguais
 	# -1 -> a str1 for menor que a str2
 	# 1 -> a str1 for maior que a str2
-.globl strcmp
+.globl strncmp
 .text	
-  strcmp:
+  strncmp:
   	beq $a3, $0, return #se o numero de comparações for 0 vai para return
   	lb $t0, ($a0) #lê o byte do número do endereço que está em a0 e armazena em t0
   	lb $t1, ($a1) #lê o byte do número do endereço que está em a1 e armazena em t1
@@ -23,7 +31,7 @@
   	addi $v0, $0, 0 #garante que v0 é 0
 	addiu $a0,$a0, 1 #soma mais um sem overflow
 	addiu $a1,$a1, 1 #soma mais um sem overflow
-	j strcmp #vai para a label strcmp
+	j strncmp #vai para a label strcmp
 	
   return:
   	jr $ra

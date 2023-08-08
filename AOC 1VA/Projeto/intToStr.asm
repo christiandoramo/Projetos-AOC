@@ -1,3 +1,11 @@
+# grupo: 
+# ALEXANDRE VITOR ROCHA DE SOUZA , CHRISTIAN OLIVEIRA DO RAMO, JOAO LUCAS PINTO DE SANTANA, VINICIUS NARIO VASCONCELOS
+# data: 08/08/2023
+# atividade: projeto
+# disciplina: Arquitetura e Organização de Computadores
+# semestre letivo: 2022.2
+# descrição: função que converte inteiro para string
+
 .text
 
 .globl intToStr
@@ -5,9 +13,6 @@
 # a1 endereço
 # a2 contador
 intToStr:    
-addi $sp, $sp, -4      # Alocar espaço na pilha para salvar o registrador $ra
-  sw   $ra, 0($sp)       # Salvar o endereço de retorno na pilha
-  
   li   $t0, 10          # Carregar o valor 10 no registrador $t0 (usado para divisões por 10)
   add   $t1, $0, $a1      # Carregar o endereço do buffer na qual a string será armazenada
   add $t1, $t1, $a2    # Ajustar o endereço para apontar para o último caractere (antes do terminador nulo)

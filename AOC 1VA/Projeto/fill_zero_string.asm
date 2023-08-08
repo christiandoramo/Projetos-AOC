@@ -1,3 +1,11 @@
+# grupo: 
+# ALEXANDRE VITOR ROCHA DE SOUZA , CHRISTIAN OLIVEIRA DO RAMO, JOAO LUCAS PINTO DE SANTANA, VINICIUS NARIO VASCONCELOS
+# data: 08/08/2023
+# atividade: projeto
+# disciplina: Arquitetura e Organização de Computadores
+# semestre letivo: 2022.2
+# descrição: função que preenche string com char '0'
+
 # params -> destination: a0, num: a1.
 # retorna destination em v0.
 .globl fill_zero_string

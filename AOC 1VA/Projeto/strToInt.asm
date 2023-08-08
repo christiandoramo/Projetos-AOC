@@ -1,3 +1,11 @@
+# grupo: 
+# ALEXANDRE VITOR ROCHA DE SOUZA , CHRISTIAN OLIVEIRA DO RAMO, JOAO LUCAS PINTO DE SANTANA, VINICIUS NARIO VASCONCELOS
+# data: 08/08/2023
+# atividade: projeto
+# disciplina: Arquitetura e Organização de Computadores
+# semestre letivo: 2022.2
+# descrição: função que converte string em inteiro
+
 # Função para converter a string em um número inteiro
 .text
 
