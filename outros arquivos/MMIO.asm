@@ -1,9 +1,17 @@
-# Criando função de leitura e escrita de string no MMIO Sim. e a cada linha deve ser impresso uma string
+# grupo: 
+# ALEXANDRE VITOR ROCHA DE SOUZA , CHRISTIAN OLIVEIRA DO RAMO, JOAO LUCAS PINTO DE SANTANA, VINICIUS NARIO VASCONCELOS
+# data: 08/08/2023
+# atividade: questao 1-a
+# disciplina: Arquitetura e Organização de Computadores
+# semestre letivo: 2022.2
+# descrição: função strcpy
+
+# tentativa de uso simuador do MMIO
 # <nome_restaurante>-shell>>
 
 
 .data
-labelComando: .asciiz "Restaurante-shell>>"
+labelComando: .asciiz "FIFO-shell>>"
 entradaAtual: .space 64                                                 # na função ler string se for lido um espaço em branco é interpretado como 0
 
 .text
