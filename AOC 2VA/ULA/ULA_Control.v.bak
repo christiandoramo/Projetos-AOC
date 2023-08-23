@@ -1,0 +1,5 @@
+/*
+Módulo de Controle:
+Este módulo irá interpretar os códigos de operação (opcode) e sinais de controle para determinar qual operação
+deve ser realizada e quais operandos devem ser usados.
+*/
