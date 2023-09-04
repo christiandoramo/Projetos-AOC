@@ -1,0 +1,227 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/chris/Desktop/Projeto_2va/simulation/modelsim
+vctrl
+Z1 !s110 1693677776
+!i10b 1
+!s100 PzT<A16IA^:lXBDek;VF51
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjI]azaa_0OGTNZ8BbkLCY3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1693675486
+8C:/Users/chris/Desktop/Projeto_2va/ctrl.v
+FC:/Users/chris/Desktop/Projeto_2va/ctrl.v
+!i122 7
+L0 1 133
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1693677776.000000
+!s107 C:/Users/chris/Desktop/Projeto_2va/ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/ctrl.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va
+Z9 tCvgOpt 0
+vd_mem
+Z10 !s110 1693677775
+!i10b 1
+!s100 ^J>018cK`X>OGF4kMko<U2
+R2
+IimV<`C@4lJGERKQn^;deG3
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/d_mem.v
+FC:/Users/chris/Desktop/Projeto_2va/d_mem.v
+!i122 6
+L0 2 28
+R5
+r1
+!s85 0
+31
+Z11 !s108 1693677775.000000
+!s107 C:/Users/chris/Desktop/Projeto_2va/d_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/d_mem.v|
+!i113 1
+R7
+R8
+R9
+vi_mem
+R1
+!i10b 1
+!s100 =2LN:]<bY:Hjb24>l0cS53
+R2
+IkWHbH]c[XjB^=mf^Ogiid1
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/i_mem.v
+FC:/Users/chris/Desktop/Projeto_2va/i_mem.v
+!i122 8
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/chris/Desktop/Projeto_2va/i_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/i_mem.v|
+!i113 1
+R7
+R8
+R9
+vmips
+R10
+!i10b 1
+!s100 UH`0^3Z8Qf]KEL;`kB8bZ1
+R2
+IdG::oQK3j3c:D^_gB^Smj0
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/mips.v
+FC:/Users/chris/Desktop/Projeto_2va/mips.v
+!i122 5
+L0 1 118
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/chris/Desktop/Projeto_2va/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/mips.v|
+!i113 1
+R7
+R8
+R9
+vpc
+R10
+!i10b 1
+!s100 bn[[[a`AmA7XI[:AYZIQ72
+R2
+I@izM_Z@T?JZo91enP[OS71
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/pc.v
+FC:/Users/chris/Desktop/Projeto_2va/pc.v
+!i122 4
+L0 1 12
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/chris/Desktop/Projeto_2va/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/pc.v|
+!i113 1
+R7
+R8
+R9
+vregfile
+R10
+!i10b 1
+!s100 5Je==eM?RiSLP363_6[Ej2
+R2
+I?7=:5OMjI^g=RI9dFmWIK3
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/regfile.v
+FC:/Users/chris/Desktop/Projeto_2va/regfile.v
+!i122 3
+L0 3 66
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/chris/Desktop/Projeto_2va/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/regfile.v|
+!i113 1
+R7
+R8
+R9
+vsign_extender
+!s110 1693677774
+!i10b 1
+!s100 o145cXHKHQHbB<7N^;f^;3
+R2
+Ii9LoGOH^K?_4d`BRizDVY0
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/sign_extender.v
+FC:/Users/chris/Desktop/Projeto_2va/sign_extender.v
+!i122 0
+L0 1 8
+R5
+r1
+!s85 0
+31
+Z12 !s108 1693677774.000000
+!s107 C:/Users/chris/Desktop/Projeto_2va/sign_extender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/sign_extender.v|
+!i113 1
+R7
+R8
+R9
+vula
+R10
+!i10b 1
+!s100 G]`ziNW?Mj^Hz^gT]B6K[2
+R2
+IXziEBlLDjd5:482bAG>8j0
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/ula.v
+FC:/Users/chris/Desktop/Projeto_2va/ula.v
+!i122 2
+L0 4 75
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/chris/Desktop/Projeto_2va/ula.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/ula.v|
+!i113 1
+R7
+R8
+R9
+vula_ctrl
+R10
+!i10b 1
+!s100 d<^0B54HIg1[R8A8XPQi^2
+R2
+IF@^RY<9X^M4gFncR;0CA50
+R3
+R0
+R4
+8C:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v
+FC:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v
+!i122 1
+L0 6 37
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/chris/Desktop/Projeto_2va|C:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v|
+!i113 1
+R7
+R8
+R9

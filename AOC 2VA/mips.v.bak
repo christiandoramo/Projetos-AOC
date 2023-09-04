@@ -1,0 +1,18 @@
+module mips (
+	input clk,
+	input reset,
+	output reg [31:0] pc,
+	output reg [31:0] alu_out,
+	output reg [31:0] data_out
+);
+//`include "pc.v"
+//`include "i_mem.v"
+//`include "d_mem.v"
+//`include "regfile.v"
+//`include "ula.v"
+`include "ctrl.v"
+`include "ula_ctrl.v"
+
+
+
+endmodule

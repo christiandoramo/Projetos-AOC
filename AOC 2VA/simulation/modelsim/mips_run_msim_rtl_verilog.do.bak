@@ -1,0 +1,17 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/sign_extender.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/ula_ctrl.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/ula.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/regfile.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/pc.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/mips.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/d_mem.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/ctrl.v}
+vlog -vlog01compat -work work +incdir+/home/joaolucas/Documentos/Projeto_2va {/home/joaolucas/Documentos/Projeto_2va/i_mem.v}
+

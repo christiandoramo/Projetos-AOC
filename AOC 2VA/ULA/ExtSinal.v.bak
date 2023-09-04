@@ -1,5 +1,0 @@
-/*
-Módulo de Extensão de Sinal:
-Para operações que envolvem valores imediatos (instruções I), 
-você pode criar um módulo para estender ou ajustar o sinal imediato para a largura correta antes de executar a operação.
-*/

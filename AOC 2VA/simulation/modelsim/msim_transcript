@@ -1,0 +1,143 @@
+# Reading pref.tcl
+# do mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/sign_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:54 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 15:02:54 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:54 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/ula_ctrl.v 
+# -- Compiling module ula_ctrl
+# 
+# Top level modules:
+# 	ula_ctrl
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/ula.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:55 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/ula.v 
+# -- Compiling module ula
+# 
+# Top level modules:
+# 	ula
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:55 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:55 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:55 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/d_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:55 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/d_mem.v 
+# -- Compiling module d_mem
+# 
+# Top level modules:
+# 	d_mem
+# End time: 15:02:55 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:56 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/ctrl.v 
+# -- Compiling module ctrl
+# 
+# Top level modules:
+# 	ctrl
+# End time: 15:02:56 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/chris/Desktop/Projeto_2va {C:/Users/chris/Desktop/Projeto_2va/i_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:56 on Sep 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/chris/Desktop/Projeto_2va" C:/Users/chris/Desktop/Projeto_2va/i_mem.v 
+# -- Compiling module i_mem
+# 
+# Top level modules:
+# 	i_mem
+# End time: 15:02:56 on Sep 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.ula
+# vsim work.ula 
+# Start time: 15:03:17 on Sep 02,2023
+# Loading work.ula
+run -all
+vsim work.mips
+# End time: 15:04:33 on Sep 02,2023, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 0
+# vsim work.mips 
+# Start time: 15:04:33 on Sep 02,2023
+# Loading work.mips
+# Loading work.pc
+# Loading work.i_mem
+# Loading work.ctrl
+# Loading work.regfile
+# Loading work.sign_extender
+# Loading work.ula_ctrl
+# Loading work.ula
+# Loading work.d_mem
+add wave -position end  sim:/mips/instruction
+force -freeze sim:/mips/instruction 00111100000000010000000000001111 0
+run
+# ** Warning: (vsim-7) Failed to open readmem file "instruction.list" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/chris/Desktop/Projeto_2va/i_mem.v(8)
+#    Time: 0 ps  Iteration: 0  Instance: /mips/i_mem
+add wave -position end  sim:/mips/opcode
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+add wave -position end  sim:/mips/rs
+add wave -position end  sim:/mips/rt
+add wave -position end  sim:/mips/rd
+add wave -position end  sim:/mips/shamt
+add wave -position end  sim:/mips/funct
+force -freeze sim:/mips/instruction 00111100000000010000000000001111 0
+run
+# End time: 15:32:06 on Sep 02,2023, Elapsed time: 0:27:33
+# Errors: 0, Warnings: 1
