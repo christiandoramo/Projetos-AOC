@@ -1,7 +1,5 @@
 <div  align="center">
     
- # Projeto Sistema de Restaurante
-    
 <div  align="left">
 
 ### Tópicos
